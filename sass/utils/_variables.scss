@@ -1,0 +1,41 @@
+$button-color: #f5f4fa;
+$header-color: #212121;
+$darkgrey: #2f303a;
+$grey: #757575;
+$blue: #2196f3;
+$white: #ffffff;
+$order-gradient: linear-gradient(
+  to bottom,
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)
+);
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: $grey;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+  }

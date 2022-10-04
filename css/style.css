@@ -344,7 +344,7 @@ body {
 .agreement-element {
   display: flex;
   color: var(--grey);
-  margin: 10px 0 30px 0;
+  margin-bottom: 30px;
   align-items: center;
   justify-content: center;
   font-weight: 400;
@@ -392,6 +392,10 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .agreement-input:focus-within+.agreement-icon {
   outline: solid 1px;
+}
+
+.modal-button{
+    margin: auto;
 }
 
 /* advantages */
