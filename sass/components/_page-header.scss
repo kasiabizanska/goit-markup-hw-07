@@ -5,7 +5,6 @@
   line-height: 1.19;
   color: $header-color;
   display: flex;
-  padding: 24px 0px 25px 0px;
   border-bottom: solid 1px #ececec;
 
   &__container {
@@ -61,7 +60,7 @@
       bottom: 0px;
       left: 0;
       background-color: $blue;
-      transform: translateY(29px);
+      transform: translateY(31px);
       border-radius: 2px;
     }
   }

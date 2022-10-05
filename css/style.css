@@ -353,12 +353,12 @@ body {
   cursor: pointer;
 }
 
-.agreement-link{
+.agreement-link {
   margin-left: 5px;
-    color: var(--blue);
+  color: var(--blue);
 }
 
-.agreement-input{
+.agreement-input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -371,7 +371,7 @@ body {
   overflow: hidden;
 }
 
-.agreement-icon{
+.agreement-icon {
   fill: none;
   margin-right: 7px;
   border: 2px solid var(--header-color);
@@ -380,22 +380,22 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.agreement-icon .check-icon{
+.agreement-icon .check-icon {
   fill: var(--white);
 }
 
-.agreement-input:checked+.agreement-icon {
-background-color: var(--blue);
-border: 0.2px solid var(--white);
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.agreement-input:checked + .agreement-icon {
+  background-color: var(--blue);
+  border: 0.2px solid var(--white);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.agreement-input:focus-within+.agreement-icon {
+.agreement-input:focus-within + .agreement-icon {
   outline: solid 1px;
 }
 
-.modal-button{
-    margin: auto;
+.modal-button {
+  margin: auto;
 }
 
 /* advantages */
