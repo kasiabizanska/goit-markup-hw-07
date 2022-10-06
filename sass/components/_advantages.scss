@@ -1,6 +1,10 @@
 .advantages {
   padding: 94px 0;
   justify-content: center;
+  &__container {
+    width: 1200px;
+    margin: 0 auto;
+  }
 
   &__list {
     display: flex;

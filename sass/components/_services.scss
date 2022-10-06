@@ -4,6 +4,11 @@
   justify-content: center;
   padding-bottom: 94px;
 
+  &__container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
   &__header {
     font-size: 36px;
     line-height: 1.17;

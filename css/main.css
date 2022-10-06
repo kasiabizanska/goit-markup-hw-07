@@ -26,11 +26,6 @@ body {
   color: #757575;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .menu {
   margin: 0 auto;
   background: #ffffff;
@@ -55,6 +50,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 .menu__logo-web {
   font-family: "Raleway";
@@ -144,6 +141,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.advantages__container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,6 +201,10 @@ body {
           justify-content: center;
   padding-bottom: 94px;
 }
+.services__container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .services__header {
   font-size: 36px;
   line-height: 1.17;
@@ -244,6 +249,10 @@ body {
 .team {
   background-color: #f5f4fa;
   padding: 94px 0;
+}
+.team__container {
+  width: 1200px;
+  margin: 0 auto;
 }
 .team__header {
   font-size: 36px;
@@ -344,6 +353,10 @@ body {
           flex-direction: column;
   background-color: #ffffff;
 }
+.clients__container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .clients__header {
   font-size: 36px;
   line-height: 1.17;
@@ -356,6 +369,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: calc(20% - 150px);
+      flex-basis: calc(20% - 150px);
   gap: 30px;
   list-style: none;
 }
@@ -383,6 +398,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 1200px;
+  margin: 0 auto;
 }
 .footer__logo-web {
   font-family: "Raleway";
@@ -903,6 +920,7 @@ body {
           justify-content: center;
   gap: 30px;
   width: 1200px;
+  margin: 0 auto;
   margin-bottom: 94px;
 }
 .project__item {
