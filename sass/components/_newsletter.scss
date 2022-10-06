@@ -1,4 +1,8 @@
 .newsletter {
+  &__conteiner {
+    width: 1200px;
+    margin: 0 auto;
+  }
   &__title {
     display: column;
     font-weight: 700;
@@ -9,6 +13,7 @@
     padding-left: 70px;
     padding-bottom: 20px;
   }
+
   &__form {
     padding: 0 70px;
     font-weight: 700;

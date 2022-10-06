@@ -436,7 +436,7 @@ body {
   color: #2196f3;
 }
 
-.followus {
+.followus__paragraph {
   display: column;
   font-weight: 700;
   font-size: 14px;
@@ -454,7 +454,7 @@ body {
   padding-left: 70px;
   gap: 10px;
 }
-.followus__list__icon {
+.followus__icon {
   height: 44px;
   width: 44px;
   border-radius: 50%;
@@ -463,10 +463,14 @@ body {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.followus__list__icon:hover, .followus__list__icon:focus {
+.followus__icon:focus, .followus__icon:hover {
   background-color: #2196f3;
 }
 
+.newsletter__conteiner {
+  width: 1200px;
+  margin: 0 auto;
+}
 .newsletter__title {
   display: column;
   font-weight: 700;
@@ -589,6 +593,10 @@ body {
           justify-content: center;
   padding: 200px 0;
 }
+.vision__conteiner {
+  width: 1200px;
+  margin: 0 auto;
+}
 .vision__header {
   font-weight: 900;
   font-size: 44px;
@@ -635,6 +643,10 @@ body {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+.modal__conteiner {
+  width: 1200px;
+  margin: 0 auto;
 }
 .modal__button-close {
   position: absolute;

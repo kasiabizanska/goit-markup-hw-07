@@ -58,7 +58,7 @@
       </header>
       <main>
         <div class="vision">
-            <div class="conteiner">
+            <div class="vision__conteiner">
             <h1 class="vision__header">EFEKTYWNE ROZWIĄZANIA <br />
               DLA WASZEGO BIZNESU</h1>
             <button type="button" class="vision__button" data-modal-open>
@@ -368,42 +368,42 @@
             <h2 class="clients__header">Nasi Klienci</h2>
             <ul class="clients__list">
               <li>
-                <a href="#">
+                <a href="">
                   <svg class="clients__icon">
                     <use href="./images/icons.svg#company-icon-1" width="106" height="60" x="32" y="17"></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="">
                   <svg class="clients__icon">
                     <use href="./images/icons.svg#company-icon-2" width="106" height="60" x="32" y="17"></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="#">                  
+                <a href="">                  
                   <svg class="clients__icon">
                     <use href="./images/icons.svg#company-icon-3" width="106" height="60" x="32" y="17"></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="">
                   <svg class="clients__icon">
                     <use href="./images/icons.svg#company-icon-4" width="106" height="60" x="32" y="17"></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="">
                   <svg class="clients__icon">
                     <use href="./images/icons.svg#company-icon-5" width="106" height="60" x="32" y="17"></use>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="">
                   <svg class="clients__icon">
                     <use href="./images/icons.svg#company-icon-6" width="106" height="60" x="32" y="17"></use>
                   </svg>
@@ -438,30 +438,30 @@
               </div>
             </address>
           </div>
-          <div>
-            <p class="followus">DOŁĄCZ DO NAS</p>
+          <div class="followus">
+            <p class="followus__paragraph">DOŁĄCZ DO NAS</p>
             <ul class="followus__list">
               <li>
-                <a href="#">
-                    <svg  class="followus__list__icon">
+                <a href="">
+                    <svg  class="followus__icon">
                       <use href="./images/icons.svg#instagram-icon" width="20" height="20" x="12" y="12"></use>                   </svg>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <svg  class="followus__list__icon">
+                <a href="">
+                  <svg  class="followus__icon">
                     <use href="./images/icons.svg#twitter-icon" width="20" height="20" x="12" y="12"></use>                   </svg>
               </a>
               </li>
               <li>
-                <a href="#">
-                  <svg  class="followus__list__icon">
+                <a href="">
+                  <svg  class="followus__icon">
                     <use href="./images/icons.svg#facebook-icon" width="20" height="20" x="12" y="12"></use>                   </svg>
               </a>
               </li>
               <li>
-                <a href="#">
-                  <svg  class="followus__list__icon">
+                <a href="">
+                  <svg  class="followus__icon">
                     <use href="./images/icons.svg#linkin-icon" width="20" height="20" x="12" y="12"></use>                   </svg>
               </a>
               </li>
@@ -469,6 +469,7 @@
           </div>
           <div>
           <form name="newsletter">
+            <div class="newsletter__container">
             <p class="newsletter__title">ZAPISZ SIĘ DO NEWSLETTERA</p>
             <div class="newsletter__form"><input type="email" class="newsletter__form__input" name="mail" placeholder="E-mail">
               <button type="submit" class="newsletter__button">
@@ -478,12 +479,14 @@
                 </svg>
               </button>
             </div>
+          </div>
           </form>
           </div>
       </footer>
 
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+          <div class="modal__conteiner">
           <button class="modal__button-close" data-modal-close>
             <svg class="modal-icon" width="30" height="30">
               <use href="./images/icons.svg#x"></use>
@@ -499,6 +502,7 @@
                   <use href="./images/icons.svg#person-icon"></use>
                 </svg>
               </div>
+            
             </div>
             <div class="order__element">
               <label class="order__label" for="tel">Telefon</label>
@@ -509,7 +513,7 @@
                 </svg>
               </div>
             </div>
-    
+          
             <div class="order__element">
               <label class="order__label" for="email">Email</label>
               <div class="order__wrapper">
@@ -540,7 +544,7 @@
           </form>
         </div>
       </div>
-
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>

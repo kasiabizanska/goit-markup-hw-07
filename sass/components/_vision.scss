@@ -12,6 +12,10 @@
   align-items: center;
   justify-content: center;
   padding: 200px 0;
+  &__conteiner{
+    width: 1200px;
+    margin: 0 auto;
+  }
   &__header {
     font-weight: 900;
     font-size: 44px;
